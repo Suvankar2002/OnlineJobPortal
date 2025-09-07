@@ -1,0 +1,22 @@
+# Eclipse files
+/.classpath
+/.project
+/.settings/
+
+# Maven / Gradle build folders
+/target/
+/bin/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.idea/
+.vscode/
+
+# Environment variables file
+.env
