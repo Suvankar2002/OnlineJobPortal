@@ -5,6 +5,6 @@ COPY src ./src
 RUN mvn clean package
 
 FROM tomcat:10.1-jdk17
-COPY --from=build /app/target/YourProject.war /usr/local/tomcat/webapps/ROOT.war
+COPY --from=build /app/target/onlineJobPortal.war /usr/local/tomcat/webapps/ROOT.war
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
